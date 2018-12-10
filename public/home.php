@@ -7,6 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta name="description" content="">
     <meta name="author" content="">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jquery-confirm/3.3.0/jquery-confirm.min.css">
 
     <title>YouTube Video Downloader</title>
 
@@ -51,7 +52,7 @@
         <div class="col-lg-12 text-center">
             <h1 class="mt-5">YouTube Video Downloader</h1>
             <p class="lead">Baixe vídeos à vontade!!</p>
-            <form>
+            <form id="download">
                 <div class="form-group">
                     <label for="youtubeDownloadField">Insira a URL:</label>
                     <input type="email" class="form-control" id="youtubeDownloadField" aria-describedby="youtubeHelp" placeholder="Enter YouTube URL">
@@ -66,6 +67,7 @@
 <!-- Bootstrap core JavaScript -->
 <script src="vendor/jquery/jquery.min.js"></script>
 <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-confirm/3.3.0/jquery-confirm.min.js"></script>
 
 </body>
 
