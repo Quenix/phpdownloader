@@ -55,7 +55,7 @@
             <form id="download">
                 <div class="form-group">
                     <label for="youtubeDownloadField">Insira a URL:</label>
-                    <input type="email" class="form-control" id="youtubeDownloadField" aria-describedby="youtubeHelp" placeholder="Enter YouTube URL">
+                    <input type="text" class="form-control" id="youtubeDownloadField" aria-describedby="youtubeHelp" placeholder="Enter YouTube URL">
                     <small id="youtubeHelp" class="form-text text-muted">Baixa uns vídeo ae de boassa</small>
                 </div>
                 <button type="submit" class="btn btn-primary">Download</button>
