@@ -1,1 +1,13 @@
-console.log('dá um preventDefault no submit do form de id download, seu bicha');
+$(document).ready( function () {
+	$('#download').on('submit', function(e){
+		e.preventDefault();
+		downloadModal();
+	});
+});
+
+function downloadModal(){
+	$.alert({
+	    title: 'Alert!',
+	    content: 'Simple alert!',
+	})
+}
